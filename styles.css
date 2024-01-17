@@ -135,3 +135,35 @@
   align-self: flex-end;
   font-weight: 700;
 }
+
+/* CTA Section */
+.call-to-action {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.cta-container {
+  padding: 48px 120px;
+  width: 80%;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.cta-title {
+  font-weight: 700;
+}
+
+.cta-button {
+  align-self: center;
+  border: 3px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 40px;
+  border-radius: 10px;
+}
