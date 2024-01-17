@@ -10,14 +10,14 @@
 /* Header Section */
 .header {
   background-color: #1f2937;
-  height: 400px; /* Is this the right approach? */
+  height: 400px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
-  width: 80%; /* Not sure if this is the right approach or should focus on padding + margin instead */
+  width: 80%;
   margin: auto;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .nav-links {
-  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -37,6 +36,15 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.nav-links a:hover {
+  color: #3882f6;
 }
 
 .header-content {
@@ -66,6 +74,12 @@
   border-radius: 10px;
   border: none;
   margin-top: 8px;
+}
+
+.main-sign-up:hover {
+  cursor: pointer;
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 /* Information Section */
@@ -133,6 +147,7 @@
 
 .quote-author {
   align-self: flex-end;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -156,6 +171,7 @@
 }
 
 .cta-title {
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -166,4 +182,24 @@
   color: #f9faf8;
   padding: 8px 40px;
   border-radius: 10px;
+}
+
+.cta-button:hover {
+  cursor: pointer;
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/* Footer */
+.footer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+}
+
+.copyright {
+  color: #e5e7eb;
 }
