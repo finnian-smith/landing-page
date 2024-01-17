@@ -7,13 +7,12 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-/* Header */
+/* Header Section */
 .header {
   background-color: #1f2937;
   height: 400px; /* Is this the right approach? */
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -40,7 +39,6 @@
   gap: 30px;
 }
 
-/* Header Content */
 .header-content {
   width: 80%;
   margin: 48px auto;
@@ -48,7 +46,6 @@
   gap: 20px;
 }
 
-/* Header Text */
 .main-title {
   color: #f9faf8;
   font-size: 48px;
@@ -62,7 +59,6 @@
   margin-bottom: 5px;
 }
 
-/* Header Button */
 .main-sign-up {
   background-color: #3882f6;
   color: white;
@@ -72,12 +68,14 @@
   margin-top: 8px;
 }
 
-/* Information */
+/* Information Section */
 .information {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 80%;
-  margin: 48px auto;
+  margin: auto;
+  height: 400px;
 }
 
 .information-header {
@@ -108,4 +106,32 @@
   margin-top: 8px;
   text-align: center;
   width: 150px;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #e5e7eb;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: 700;
 }
